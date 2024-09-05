@@ -40,7 +40,14 @@ const events = [
   },
 ];
 
-const EventCard = ({ event }) => {
+interface Event {
+  id: number;
+  title: string;
+  date: string;
+  imageUrl: string;
+}
+
+const EventCard = ({ event }: { event: Event }) => {
   
   return (
     <div className="event-card">
