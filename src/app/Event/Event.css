@@ -1,0 +1,17 @@
+.Titlee {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: #000;
+  }
+
+.para{
+     color: #7E7E7E; 
+     margin-bottom: 24px;
+}
+
+.time{
+    color: #7848F4;
+    font-size: 18px;
+    font-weight: 700;
+}
