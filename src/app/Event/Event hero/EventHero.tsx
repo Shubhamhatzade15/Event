@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import { useState, useEffect } from 'react'
+import { FiMapPin } from "react-icons/fi";
 import "./EventHero.css";
 import dynamic from "next/dynamic";
 
@@ -10,10 +10,14 @@ const EventHero = () => {
     <div className="container">
       <div className="content">
         <div className="flex-container">
+        <div className="top-button">
+            <button>Back</button>
+          </div>
         <div className="text-container">
             <h1>Dream world wide</h1>
             <h2>in jakarta</h2>
             <h3>IIIT Sonepat</h3>
+            
           </div>
           <div className="info-container">
             <div className="date-time">

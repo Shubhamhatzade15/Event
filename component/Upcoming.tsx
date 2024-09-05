@@ -58,6 +58,7 @@ const EventCard = ({ event }: { event: Event }) => {
   return (
     <div className="event-card">
       <img src={event.imageUrl} alt={event.title} />
+      <div className="free">FREE</div>
       <div className="event-info">
         <p className="event-title">{event.title}</p>
         <br />

@@ -9,7 +9,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    max-width: 1320px;
+    max-width: 1380px;
 
 
   }
@@ -23,7 +23,17 @@
     gap: 60px;
   }
 
-  
+  .top-button {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    background-color: #7848F4;
+    width: 50px;
+    height: 30px;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+  }
   
   
   .content {
@@ -120,6 +130,7 @@
     padding: 8px 16px;
     border-radius: 4px;
     cursor: pointer;
+    text-align: left;
   }
   
   .buttons {
