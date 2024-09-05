@@ -4,7 +4,7 @@ import { CiCircleMore } from "react-icons/ci";
 const College = () => {
   return (
     <div className="containerc">
-      <h1 className="titlec">Trending Colleges</h1>
+      <h1 className="titlec">Trending <span style={{ color: '#7848F4' }}>Colleges</span></h1>
       <div className="collegesc">
         <div className="collegec">
           <img src="/card-image.png" alt="Harvard University" />
@@ -41,32 +41,41 @@ const College = () => {
         </div>
       </div>
       <button className="load-more">Load more...</button>
-      <h2 className="titlec">Our Blogs</h2>
+      <h1 className="titlec">Our <span style={{ color: '#7848F4' }}>Blogs</span></h1>
       <div className="blogs">
         <div className="blog">
           <img src="/Event.png" alt="BestSeller Book Bootcamp" />
+          <div className="free">FREE</div>
           <div className="blog-info">
-            <div className="free">FREE</div>
+            
             <h3>BestSeller Book Bootcamp - write, Market & Publish Your Book - Lucknow</h3>
-            <p>Saturday, March 18, 9:30PM</p>
+            <br />
+            <h4>Saturday, March 18, 9:30PM</h4>
+            <br />
             <p>ONLINE EVENT - Attend anywhere</p>
           </div>
         </div>
         <div className="blog">
           <img src="/unsplash_qfWMUXDcN18.png" alt="BestSeller Book Bootcamp" />
+          <div className="free">FREE</div>
           <div className="blog-info">
-            <div className="free">FREE</div>
+            
             <h3>BestSeller Book Bootcamp - write, Market & Publish Your Book - Lucknow</h3>
-            <p>Saturday, March 18, 9:30PM</p>
+            <br />
+            <h4>Saturday, March 18, 9:30PM</h4>
+            <br />
             <p>ONLINE EVENT - Attend anywhere</p>
           </div>
         </div>
         <div className="blog">
           <img src="/unsplash_qfWMUXDcN18.png" alt="BestSeller Book Bootcamp" />
+          <div className="free">FREE</div>
           <div className="blog-info">
-            <div className="free">FREE</div>
+            
             <h3>BestSeller Book Bootcamp - write, Market & Publish Your Book - Lucknow</h3>
-            <p>Saturday, March 18, 9:30PM</p>
+            <br />
+            <h4>Saturday, March 18, 9:30PM</h4>
+            <br />
             <p>ONLINE EVENT - Attend anywhere</p>
           </div>
         </div>

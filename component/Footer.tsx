@@ -1,11 +1,13 @@
 import React from 'react';
 import dynamic from "next/dynamic";
+import { CiLinkedin,CiFacebook,CiInstagram} from "react-icons/ci";
+import { FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <div className="containerf">
       <div className="headerf">
-        <h1>Event Hive</h1>
+        <h1>Event <span style={{ color: '#7848F4' }}>Hive</span></h1>
         <div className="subscribef">
           <input type="email" placeholder="Enter your mail" />
           <button>Subscribe</button>
@@ -20,6 +22,7 @@ const Footer = () => {
           <li><a href="#">FAQs</a></li>
         </ul>
       </div>
+      <hr />
       <div className="footer">
         <div className="language">
           <button>English</button>
@@ -27,12 +30,12 @@ const Footer = () => {
           <button>Hindi</button>
         </div>
         <div className="social">
-          <a href="#"><i className="fab fa-linkedin-in"></i></a>
-          <a href="#"><i className="fab fa-instagram"></i></a>
-          <a href="#"><i className="fab fa-facebook-f"></i></a>
+        <CiLinkedin />
+        <CiInstagram />
+        <CiFacebook />
         </div>
         <div className="copyright">
-          <p>Non Copyrighted © 2023 Upload by EventHive</p>
+          <p>Non Copyrighted © 2023 Upload by rich technologies</p>
         </div>
       </div>
     </div>

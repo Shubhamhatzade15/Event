@@ -20,23 +20,23 @@ const Brands = () => {
         <div className="brand">
           <img style={{ height: '62.95px', width: '141px' }} src="/image 14.png" alt="Stripe" />
         </div>
-        <div className="brand">
-          <img style={{ height: '75px', width: '226px' }}src="/image 15.png" alt="YouTube" />
+        <div className="brand"style={{ marginTop: '25px' }}>
+          <img style={{ height: '100px', width: '226px' }}src="/image 15.png" alt="YouTube" />
         </div>
-        <div className="brand">
-          <img style={{ height: '120px', width: '296.77px' }}src="/image 16.png" alt="Microsoft" />
+        <div className="brand"style={{ marginTop: '25px' }}>
+          <img style={{ height: '100px', width: '296.77px' }}src="/image 16.png" alt="Microsoft" />
         </div>
-        <div className="brand">
-          <img style={{ height: '83px', width: '294.5px' }}src="/image 17.png" alt="Medium" />
+        <div className="brand"style={{ marginTop: '0px' }}>
+          <img style={{ height: '90px', width: '350px' }}src="/image 17.png" alt="Medium" />
         </div>
-        <div className="brand">
-          <img src="/image 18.png" alt="Zoom" />
+        <div className="brand"style={{ marginTop: '25px' }}>
+          <img style={{ height: '38.64px', width: '181.72px' }}src="/image 18.png" alt="Zoom" />
         </div>
-        <div className="brand">
-          <img src="/image 19.png" alt="Uber" />
+        <div className="brand"style={{ marginTop: '25px' }}>
+          <img style={{ height: '44.02px', width: '134.13px' }}src="/image 19.png" alt="Uber" />
         </div>
-        <div className="brand">
-          <img src="/image 20.png" alt="Grab" />
+        <div className="brand"style={{ marginTop: '25px' }}>
+          <img style={{ height: '52.36px', width: '145.37px' }}src="/image 20.png" alt="Grab" />
         </div>
       </div>
     </div>
