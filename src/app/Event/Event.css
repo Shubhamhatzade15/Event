@@ -1,17 +1,48 @@
+.card{
+  width: 650px;
+  margin-left: 100px;
+}
 .Titlee {
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 16px;
     color: #000;
+    
+  }
+
+  .dream {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    color: #000;
   }
 
 .para{
+  width: 650px;
      color: #7E7E7E; 
      margin-bottom: 24px;
+}
+
+.parad{
+  width: 550px;
+     color: #7E7E7E; 
+     margin-bottom: 24px;
+}
+
+.tags{
+  width: 500px;
+  margin-bottom: 40px;
 }
 
 .time{
     color: #7848F4;
     font-size: 18px;
     font-weight: 700;
+}
+
+.card h1{
+  font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: #000;
 }
