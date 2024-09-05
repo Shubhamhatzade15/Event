@@ -1,7 +1,12 @@
 import React from 'react';
 import dynamic from "next/dynamic";
 
+
+
 const events = [
+
+  
+
   {
     id: 1,
     title: 'BestSeller Book Bootcamp - write, Market & Publish Your Book - Lucknow',
@@ -40,7 +45,15 @@ const events = [
   },
 ];
 
-const EventCard = ({ event }) => {
+interface Event {
+  id: number;
+  title: string;
+  date: string;
+  imageUrl: string;
+}
+
+const EventCard = ({ event }: { event: Event }) => {
+
   
   return (
     <div className="event-card">
@@ -55,6 +68,7 @@ const EventCard = ({ event }) => {
     </div>
   );
 };
+
 
 const Upcoming = () => {
   return (
