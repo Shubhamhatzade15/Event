@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+
+
+body {
+  font-family: 'PT Sans';
+}
 .card{
   width: 650px;
   margin-left: 100px;
@@ -45,4 +52,42 @@
     font-weight: 700;
     margin-bottom: 16px;
     color: #000;
+}
+
+@media only screen and (max-width: 768px) {
+  .card{
+    width: 90%; /* adjust width to fit mobile screen */
+    margin-left: 20px; /* adjust margin to fit mobile screen */
+  }
+
+  .Titlee {
+    font-size: 18px; /* reduce font size for mobile */
+  }
+
+  .dream {
+    font-size: 18px; /* reduce font size for mobile */
+  }
+
+  .para{
+    width: 90%; /* adjust width to fit mobile screen */
+    font-size: 16px; /* reduce font size for mobile */
+  }
+
+  .parad{
+    width: 80%; /* adjust width to fit mobile screen */
+    font-size: 16px; /* reduce font size for mobile */
+  }
+
+  .tags{
+    width: 80%; /* adjust width to fit mobile screen */
+    margin-bottom: 20px; /* reduce margin for mobile */
+  }
+
+  .time{
+    font-size: 16px; /* reduce font size for mobile */
+  }
+
+  .card h1{
+    font-size: 18px; /* reduce font size for mobile */
+  }
 }

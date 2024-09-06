@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+
+
+body {
+  font-family: 'PT Sans';
+}
 .containerot {
     max-width: 1200px;
     margin: 0 auto;
@@ -66,4 +73,22 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+  }
+
+  @media only screen and (max-width: 480px) {
+    .event-grid {
+      grid-template-columns: 1fr;
+    }
+    .event-card img {
+      height: 180px;
+    }
+    .event-title {
+      font-size: 14px;
+    }
+    .event-date {
+      font-size: 10px;
+    }
+    .event-location {
+      font-size: 10px;
+    }
   }

@@ -3,6 +3,9 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
 
+
+
+
 body {
   font-family: 'PT Sans';
 }
@@ -49,6 +52,32 @@ body {
   color: #000000;
   cursor: pointer;
   margin-left: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .headern {
+    padding: 10px 20px;
+    
+  }
+
+  .logon {
+    
+    align-items: center;
+  }
+
+  .event, .hive {
+    font-size: 24px;
+  }
+
+  .buttonsn {
+    
+    align-items: center;
+  }
+
+  .buttonn {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
 }
 
 /*Hero*/
@@ -139,6 +168,40 @@ body {
   margin-right: 5px;
 }
 
+/* Media queries for mobile view */
+@media only screen and (max-width: 768px) {
+  .containerh {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .hero-content h1 {
+    font-size: 36px;
+  }
+
+  .search-form {
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    margin-top: 100px;
+    margin-left: 0;
+  }
+
+  .search-form-group {
+    margin: 10px 0;
+    width: 100%;
+  }
+
+  .search-form-group select,
+  .search-form-group input {
+    width: 100%;
+  }
+
+  .search-button {
+    padding: 10px 10px;
+  }
+}
+
 /*Upcoming */
 .container {
   max-width: 1200px;
@@ -209,6 +272,41 @@ body {
   cursor: pointer;
 }
 
+@media only screen and (max-width: 768px) {
+  /* Adjust the container width and padding */
+  .container {
+    max-width: 90%;
+    padding: 10px;
+  }
+
+  /* Make the event grid a single column */
+  .event-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Adjust the event card width and padding */
+  .event-card {
+    width: 100%;
+    padding: 10px;
+  }
+
+  /* Adjust the event card image height */
+  .event-card img {
+    height: 180px;
+  }
+
+  /* Adjust the event info padding */
+  .event-info {
+    padding: 10px;
+  }
+
+  /* Adjust the load more button padding and margin */
+  .load-more {
+    padding: 5px 10px;
+    margin: 10px auto;
+  }
+}
+
 /*Event*/
 .banner {
   display: flex;
@@ -258,6 +356,42 @@ body {
   margin-bottom: 50px;
 }
 
+@media only screen and (max-width: 768px) {
+  .banner {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem;
+    margin-top: 50px;
+  }
+
+  .content {
+    text-align: center;
+  }
+
+  .content h1 {
+    font-size: 24px;
+    margin-bottom: 0.5rem;
+  }
+
+  .content p {
+    font-size: 16px;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+
+  .button {
+    padding: 0.5rem 1rem;
+  }
+
+  .image {
+    margin-bottom: 20px;
+  }
+
+  .image img {
+    margin-bottom: 0;
+  }
+}
+
 /*Brands*/
 .containerb {
   text-align: center;
@@ -297,6 +431,22 @@ h2{
 .brand img {
   width: 100%;
   height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 24px;
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  .containerb p {
+    font-size: 16px;
+    margin-left: -400px;
+    width: 1250px;
+  }
 }
 
 
@@ -451,6 +601,76 @@ h2{
  margin-left: 30px;
 }
 
+@media only screen and (max-width: 768px) {
+  .containerc {
+    padding: 10px 20px;
+  }
+  
+  .collegesc {
+    gap: 20px;
+  }
+  
+  .collegec {
+    width: 100%;
+  }
+  
+  .collegec img {
+    height: 200px;
+  }
+  
+  .college-infoc {
+    padding: 10px;
+  }
+  
+  .college-infoc h3 {
+    font-size: 18px;
+  }
+  
+  .college-infoc p {
+    font-size: 12px;
+  }
+  
+  .blogs {
+    padding: 10px;
+  }
+  
+  .blog {
+    width: 100%;
+  }
+  
+  .blog img {
+    height: 150px;
+    padding: 10px;
+  }
+  
+  .blog-info {
+    padding: 10px;
+  }
+  
+  .blog-info h3 {
+    font-size: 14px;
+  }
+
+  .blog-info h4 {
+    font-size: 10px;
+  }
+  
+  .blog-info p {
+    font-size: 10px;
+  }
+  
+  .free {
+    margin-top: -180px;
+    font-size: 8px;
+    margin-left: 20px;
+  }
+  
+  .load-more {
+    padding: 5px 10px;
+    font-size: 16px;
+  }
+}
+
 /*Footer*/
 .containerf {
   background-color: #10107B;
@@ -555,3 +775,55 @@ hr{
   text-align: center;
 }
 
+@media only screen and (max-width: 768px) {
+  body, html {
+    overflow-x: hidden;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .containerf {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .headerf {
+    padding: 20px 0;
+  }
+
+  .nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav ul {
+    flex-direction: column;
+  }
+
+  .nav li {
+    margin: 10px 0;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .language {
+    gap: 10px;
+  }
+
+  .language button {
+    margin: 5px 0;
+  }
+
+  .social {
+    font-size: 20px;
+    gap: 5px;
+    margin-left: 0;
+  }
+
+  .copyright {
+    font-size: 14px;
+  }
+}
