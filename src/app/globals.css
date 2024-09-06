@@ -826,4 +826,8 @@ hr{
   .copyright {
     font-size: 14px;
   }
+
+  .free{
+    display: none;
+  }
 }
